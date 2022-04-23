@@ -5,7 +5,8 @@ public class Goods {
 	private String name;
 	private int price;
 	//생성자
-	public Goods() {	//기본생성자 //없어도 작동함
+	//생성자는 상황에 따라 여러개 만들 수 있다
+	public Goods() {	//기본생성자 //다른생산자가 없을시 없어도 작동함
 		//****** 메모리에 올리는일(클래스를 인스턴스화)******		
 		//로직
 	}
