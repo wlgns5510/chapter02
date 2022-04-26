@@ -1,11 +1,16 @@
 package com.javaex.ex10;
 
-import com.javaex.ex03.Goods;
+//static 사전조사
 
 public class GoodsApp {
-
+	//필드
+	//생성자
+	//메소드 gs
+	//메소드 일반
+	
 	public static void main(String[] args) {
-		Goods camera = new Goods("니콘", 400000);	
+
+		Goods camera = new Goods("니콘", 400000);
 		System.out.println(camera.toString());
 		
 		Goods computer = new Goods();
@@ -15,10 +20,10 @@ public class GoodsApp {
 		
 		Goods cup = new Goods("머그컵", 2000);
 		System.out.println(cup.toString());
-
 		
-	
-
+		
+		System.out.println(Goods.count);
+		
 	}
 
 }
